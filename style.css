@@ -30,3 +30,32 @@ h1{
     left: 300px;
     bottom: 300px;
 }
+.skillcontainer {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    /*align-items: center;*/
+    box-sizing: border-box;
+    border-color: black;
+    border: 5px;
+    background-color:#03506f;
+    border-radius: 50%;
+   /* justify-content: center;*/
+    position: relative;
+
+  }
+  .skilltext{
+      position:relative;
+      top:65px;
+      text-align: center;
+      
+  }
+  .set1{
+       display:inline-block;
+       }
+  .set2{
+        display:inline-block;
+        }
+  .set3{
+         display:inline-block;
+        }
