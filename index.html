@@ -13,6 +13,16 @@
 
 <body>
   <div class="topcontainer">
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#coursework">CourseWork</a>
+          <a href="#projectwork">ProjectWork</a>
+          <a href="#experience">Experience</a>
+          <a href="#getintouch">Get In Touch</a>
+      </div>
+    </div>
+    <span onclick="openNav()">Menu</span>
     <img class="topcloud" src="images/cloud.png" alt="cloud image">
     <img class="bottomcloud" src="images/cloud.png" alt="cloud image">
     <h1> I'm Amritha</h1>
@@ -27,7 +37,7 @@
         about finding creative solutions for our everyday requirements and needs to make our lives much easier. </p>
     </div>
     <hr>
-    <div class="courses">
+    <div class="courses" id="coursework">
       <h2>Coursework</h2>
       <div class="skillcontainer set1">
         <span class="skilltext">JavaScript</span>
@@ -70,7 +80,7 @@
       <hr>
     </div>
     <h2>Project Work </h2>
-    <div class="projectwork">
+    <div class="projectwork" id="projectwork">
       <div class="Projectcontainer1">
         <h3>Lawyer Management System</h3>
         <ul>
@@ -111,7 +121,7 @@
     <hr>
     <br>
     <h2>Experience</h2>
-    <div class="Experience">
+    <div class="Experience" id="experience">
       <div>
         <h3>Software Development Intern</h3>
          <h4>MSquared Software and Services, Trivandrum (Dec 2017 - Nov 2018)</h4>
@@ -136,7 +146,7 @@
     </div>
     <hr>
   </div>
-  <div class="bottomcontainer">
+  <div class="bottomcontainer" id="getintouch">
     
     <h2>Get In Touch</h2>
     <a class="btn" href="mailto:amrithasusanjacob@gmail.com">CONTACT ME</a>
