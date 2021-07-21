@@ -1,11 +1,12 @@
 body{
-    background-color:#457b9d;   
+    background-color:#245631;   
     margin:0;
     font-family: Arial, sans-serif;
 }
 h1{
     margin-top:0;
     font-family: 'Sacramento', cursive;
+    font-size: 75px;
 }
  .topcontainer{
     text-align: center;
@@ -36,9 +37,8 @@ h1{
     bottom: 30px;
 }
 .profile img {
-    border: 5px solid #1d3557;
-    border-radius: 50%;
-    text-align: center;
+    border: 5px solid #dcefe2;
+    text-align: left;
 }
 .skillcontainer {
     width: 150px;
@@ -46,20 +46,20 @@ h1{
     margin-top: 10px;
     box-sizing: border-box;
     border-radius: 50%;
-    border: 5px solid #1d3557;
+    border: 5px solid #dcefe2;
     /*align-items: center;*/
-    background-color:#e63946;
+    background-color: #ff794d;
    /* justify-content: center;*/
     position: relative;
   }
   .projectwork{
       display: flex;
-      background-color: #1d3557;
+      background-color:#ff794d ;
       border-radius: 10px;
-      color:#1d3557;
+      color: #000;;
   }
   .projectwork > div {
-    background-color: #a8dadc;
+    background-color: #ffffff;
     flex-grow: 1;
     flex-basis: 0;
     margin: 10px;
@@ -67,7 +67,7 @@ h1{
     border-radius: 10px;
   }
   .projectwork:hover{
-      background-color: #e63946;
+      background-color:#dcefe2;
   }
   .midcontainer .projectwork {
     text-align:justify;
@@ -93,12 +93,12 @@ h1{
   .Experience{
       display:flex;
       text-align:justify;
-      background-color: #1d3557;
+      background-color: #ff794d;
       border-radius: 10px;
-      color:#1d3557;
+      color:#000;
   }
   .Experience > div {
-    background-color: #a8dadc;
+    background-color: #ffffff;
     flex-grow: 1;
     flex-basis: 0;
     margin: 20px;
@@ -106,13 +106,13 @@ h1{
     border-radius: 10px;
   }
   .Experience:hover{
-      background-color: #e63946;
+      background-color:#dcefe2;
   }
   .skilltext{
      position:relative;
       top:60px;
       text-align: center;
-      color: #ffffff;
+      color: #000;
   }
   .set1{
        display:inline-block;
