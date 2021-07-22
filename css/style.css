@@ -93,7 +93,7 @@ h2{
     padding: 20px;
   }
   .projectwork:hover{
-      background-color:#ff794d;
+      background-color:#000;
   }
   .midcontainer .projectwork {
     text-align:justify;
@@ -130,7 +130,7 @@ h2{
     padding: 18px;
   }
   .Experience:hover{
-      background-color:#ff794d;
+      background-color:#000;
   }
   .skilltext{
      position:relative;
