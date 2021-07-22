@@ -29,12 +29,12 @@ h1{
 .topcloud{
   position:absolute;
   right: 300px;
-  top: 50px;
+  top: 80px;
 }
 .bottomcloud{
   position:absolute;
   left: 300px;
-  bottom: 40px;
+  bottom: 30px;
 }
 
 
@@ -43,6 +43,12 @@ h1{
   /*  max-width: 1200px;*/
     margin: 0 auto;
     color:#ffffff;
+}
+.careerobjective{
+  text-align: center;
+  position: relative;
+  max-width: 1200px;
+  padding-left:280px;
 }
 .section2{
   padding-top: 25px;
