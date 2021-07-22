@@ -1,9 +1,13 @@
 .navbar {
     background:#B0B0B0;
+    position:fixed;
+    width:100%;
+    overflow: hidden;
 }
 .nav-link,
 .navbar-brand {
     color: #fff;
+    font-size: 15px;
     cursor: pointer;
 }
 .nav-link {
@@ -13,5 +17,17 @@
     color: #000;
 }
 .navbar-collapse {
-    justify-content:flex-start;
+    justify-content:center;
+}
+.projectwork{
+    display:flex;
+    text-align:justify;
+    color:#245631;
+}
+.projectwork > div {
+    background-color: #ffffff;
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 20px;
+    padding: 18px;
 }
